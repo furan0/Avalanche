@@ -151,7 +151,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 3.1415927
+  m_Intensity: 10.88
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -190,16 +190,16 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
-  m_UseColorTemperature: 1
+  m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 2.6
 --- !u!4 &169630470
 Transform:
   m_ObjectHideFlags: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169630468}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 3.1415927
+  m_Intensity: 10.88
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_AreaLightShadowCone: 120
   m_UseScreenSpaceShadows: 0
   m_InteractsWithSky: 0
-  m_AngularDiameter: 0.5
+  m_AngularDiameter: 2.6
   m_FlareSize: 2
   m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
   m_FlareFalloff: 4
@@ -390,8 +390,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396728466}
-  m_LocalRotation: {x: -0.1503848, y: -0.72310513, z: 0.16645631, w: -0.65329605}
-  m_LocalPosition: {x: -3.9133756, y: 2.14, z: 0.06629112}
+  m_LocalRotation: {x: 0.037119534, y: -0.7408779, z: -0.041084014, w: -0.6693536}
+  m_LocalPosition: {x: -3.1847672, y: 1.0500002, z: -0.9727689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1389008417}
@@ -476,8 +476,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805145812}
-  m_LocalRotation: {x: -0.1503848, y: -0.72310513, z: 0.16645631, w: -0.65329605}
-  m_LocalPosition: {x: -3.9133756, y: 2.14, z: 0.06629112}
+  m_LocalRotation: {x: 0.037119534, y: -0.7408779, z: -0.041084014, w: -0.6693536}
+  m_LocalPosition: {x: -3.1847672, y: 1.0500002, z: -0.9727689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -747,12 +747,17 @@ PrefabInstance:
     - target: {fileID: 2325339278877764898, guid: cf9a034ddc29e324b97397fe6c587af5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.64
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 2325339278877764898, guid: cf9a034ddc29e324b97397fe6c587af5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.83
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2325339278877764898, guid: cf9a034ddc29e324b97397fe6c587af5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: 2325339279846399126, guid: cf9a034ddc29e324b97397fe6c587af5,
         type: 3}
@@ -1009,17 +1014,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0.08
-  m_LookaheadSmoothing: 6.8
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
+  m_LookaheadSmoothing: 4.81
+  m_LookaheadIgnoreY: 1
+  m_HorizontalDamping: 0.63
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
-  m_ScreenY: 0.38200003
+  m_ScreenY: 0.61
   m_DeadZoneWidth: 0.113
   m_DeadZoneHeight: 0.131
   m_SoftZoneWidth: 0.301
   m_SoftZoneHeight: 0.451
-  m_BiasX: 0
+  m_BiasX: -0.008999985
   m_BiasY: 0
   m_CenterOnActivate: 1
 --- !u!114 &1389008420
